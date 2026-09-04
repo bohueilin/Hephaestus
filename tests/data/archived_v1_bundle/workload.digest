@@ -1,0 +1,1 @@
+{"accuracy_tolerance":{"atol":1e-05,"dtype":"torch.float32","rtol":1e-05},"name":"mlp_stack","schema_version":1,"sha256":"eeb39c122ab98b19f2248e8413322164c67a6c14bef6786a8e364a9d55b2c139"}

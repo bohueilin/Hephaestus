@@ -1,0 +1,19 @@
+schema_version: 1
+minimum_speedup: 1.10
+bootstrap:
+  samples: 2000
+  confidence: 0.95
+  seed: 0
+compile_budgets_seconds:
+  mlp_stack: 30.0
+  transformer_block: 60.0
+  dynamic_batch_text: 90.0
+  graph_break_bait: 30.0
+maximum_recompiles:
+  mlp_stack: 0
+  transformer_block: 0
+  dynamic_batch_text: 2
+  graph_break_bait: 0
+graph_break_policy:
+  mode: conditional_if_any
+  reasons_required: true

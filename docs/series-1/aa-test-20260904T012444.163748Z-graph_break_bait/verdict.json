@@ -1,0 +1,1 @@
+{"driving_finding":"child.invalid_evidence","findings":[{"id":"child.invalid_evidence","mismatches":["runs/20260904T012453.405030Z-graph_break_bait-9a7509d09749:methodology.noise_floor"],"status":"FAIL"}],"schema_version":1,"statistics":null,"verdict":"INVALID_EVIDENCE"}
