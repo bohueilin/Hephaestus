@@ -1,5 +1,7 @@
 # Hephaestus
 
+![Hephaestus forging a compiler graph through a verification gate into a sealed evidence artifact](Hephaestus_github.png)
+
 ## What this is
 
 Hephaestus is an evidence-gated `torch.compile` optimization lab. An optimization policy proposes from a closed catalog, the environment executes the candidate, and an offline gate derives `PROVEN`, `NOT_PROVEN`, `CONDITIONAL`, or `INVALID_EVIDENCE` from stored evidence.
